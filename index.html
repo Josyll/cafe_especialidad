@@ -1,22 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
     <title>CAFE TOSTAO</title>
 </head>
+
 <body>
-    <header class="top default">
-        <div class="logo_side">
-            <img src="./assets/img/logo_cafe.png" alt="">
-            <nav>
-                
-            </nav>
-        </div>
-        
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="./assets/img/logo_cafe.png" alt="logo">
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="" class="nav__links">INICIO</a>
+                </li>
+                <li class="nav__items">
+                    <a href="" class="nav__links">ACERCA DE</a>
+                </li><li class="nav__items">
+                    <a href="" class="nav__links">CONTACTO</a>
+                </li><li class="nav__items">
+                    <a href="" class="nav__links">BLOG</a>
+                </li>
+                <img class="nav__close" src="./assets/img/close.svg" alt="close">
+            </ul>
+
+            <div class="nav__menu">
+                <img class="nav__img" src="./assets/img/menu.svg" alt="menuicon">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">
+                YA TOMASTE <br> UN CAFE HOY?
+            </h1>
+            <p class="hero__paragraph">
+                Elegi el tuyo
+            </p>
+        </section>
     </header>
-    
+
+    <main>
+        <section class="container recommended">
+            <h2 class="subtitle">RECOMENDADOS DE CAFÉ TOSTAO</h2>
+
+            <div class="recommended__main">
+                <article class="recommended__icons">
+                    <img class="recommended__icon" src="./assets/img/recomendado1.jpg" alt="img_recomendado">
+                    <h3 class="recommended__title">CAFÉ DEL BARISTA</h3>
+                </article>
+
+                <article class="recommended__icons">
+                    <img class="recommended__icon" src="./assets/img/recomendados2.jpg" alt="img_recomendado">
+                    <h3 class="recommended__title">COLD BREW: NUESTRO DESTACADO DEL VERANO.</h3>
+                </article>
+
+                <article class="recommended__icons">
+                    <img class="recommended__icon" src="./assets/img/recomendados3.jpg" alt="img_recomendado">
+                    <h3 class="recommended__title">BRUNCH EN TIENDA: EL MEJOR PLAN!</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="work-and-prod">
+            <div class="ourWork">
+                <h3 class="ourWork__title">Join</h3>
+                <p class="ourWorkk__paragaph">Trabajá con Nosotros</p>
+            </div>
+
+            <div class="ourMenu">
+                <h3 class="ourMenu__title">Taste</h3>
+                <p class="ourMenu__paragaph">Descubrí nuestro café</p>
+            </div>
+        </section>
+
+        <section class="apart">
+            <div class="apart__container container">
+                <div class="apart__texts">
+                    <h2 class="subtitle">DISFRUTÁ DEL CAFÉ
+                        DEL MUNDO
+                    </h2>
+                    <p class="apart__paragraph">
+                        Vení a conocernos, disfrutá de la experiencia que tenemos para brindarte. Y llevate a tu casa el mejor café del mundo. Descubrí por qué #SomosCafe
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>

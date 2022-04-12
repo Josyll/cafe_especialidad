@@ -2,5 +2,13 @@
 @import "./misc/variables";
 
 // GLOBALES
-@import "./misc/normalize"
+@import "./misc/normalize";
+
+// PARTIALS
+@import "./partials/header_home";
+@import "./partials/header";
+@import "./partials/footer";
+
+// VIEWS
+@import "./views/home"
 
