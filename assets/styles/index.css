@@ -104,16 +104,83 @@ body {
         width: 100%; }
 
 .work-and-prod {
-  width: 100%; }
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  color: white; }
   .work-and-prod .ourWork {
     background-image: url("../../assets/img/background1.png");
-    background-size: cover center;
-    z-index: -1;
+    background-size: cover;
     width: 100%;
-    height: 400px; }
+    height: 400px;
+    text-align: center;
+    color: white;
+    z-index: 10;
+    height: 400px;
+    background-color: rgba(115, 87, 104, 0.4);
+    transition: all 0.4s;
+    text-align: center;
+    padding: 100px 0; }
+    .work-and-prod .ourWork .ourWork__title {
+      font-size: 2rem; }
+    .work-and-prod .ourWork .ourWorkk__paragraph {
+      font-size: 1.5rem; }
+    .work-and-prod .ourWork .more {
+      list-style: none;
+      color: white;
+      display: inline-block;
+      border: 2px solid white;
+      padding: 10px 50px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-size: 0.6875rem;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-top: 50px; }
+    .work-and-prod .ourWork .more:hover, .work-and-prod .ourWork a:focus {
+      color: white;
+      text-decoration: underline;
+      background-color: white;
+      color: black; }
+  .work-and-prod .ourWork:hover {
+    opacity: 0.8; }
   .work-and-prod .ourMenu {
     background-image: url("../../assets/img/background2.png");
-    background-size: cover center;
-    z-index: -1;
+    background-size: cover;
     width: 100%;
-    height: 400px; }
+    height: 400px;
+    text-align: center;
+    color: white;
+    z-index: 10;
+    height: 400px;
+    background-color: rgba(115, 87, 104, 0.4);
+    transition: all 0.4s;
+    text-align: center;
+    padding: 100px 0; }
+    .work-and-prod .ourMenu .ourMenu__title {
+      font-size: 2rem; }
+    .work-and-prod .ourMenu .ourMenu__paragraph {
+      font-size: 1.5rem; }
+    .work-and-prod .ourMenu .more {
+      list-style: none;
+      color: white;
+      display: inline-block;
+      border: 2px solid white;
+      padding: 10px 50px;
+      color: white;
+      text-transform: uppercase;
+      font-size: 11px;
+      font-size: 0.6875rem;
+      font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-top: 50px; }
+    .work-and-prod .ourMenu .more:hover, .work-and-prod .ourMenu a:focus {
+      color: white;
+      text-decoration: underline;
+      background-color: white;
+      color: black; }
+  .work-and-prod .ourMenu:hover {
+    opacity: 0.8; }
