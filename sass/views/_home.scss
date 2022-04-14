@@ -3,24 +3,23 @@
 
     .subtitle{
         font-size: 2rem;
-        margin-bottom:25px;
+        margin-bottom: 25px;
     }
 
     .recommended__main{
         padding-top: 80px;
         display: grid;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         gap: 2em;
         overflow: hidden;
         grid-template-columns: repeat(auto-fit, minmax(260px, auto));
-
-
+    
         .recommended__icons{
             display: grid;
             gap: 1em;
-            justify-content: center;
-            width: 350px;
+            justify-items: center;
+            width: 100%;
             overflow: hidden;
             margin: 0 auto;
     
@@ -28,10 +27,20 @@
                 width: 100%;
             }
 
+            .recommended__title{
+                height: 70px;
+            }
+
             
     
         }
+        .recommended__icons:hover{
+            transform: scale(1.1);
+            opacity: 0.8;
+        }
     }
+
+    
 
     
 }
@@ -153,5 +162,19 @@
       }
 
     
+}
+
+.apart{
+    width: 100%;
+    text-align: center;
+
+    .apart__container{
+        width:90%;
+     
+        .subtitle{
+            padding: 1em;
+        }
+    }
+
 }
 

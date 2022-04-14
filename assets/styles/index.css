@@ -88,7 +88,7 @@ body {
   .recommended .recommended__main {
     padding-top: 80px;
     display: grid;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     gap: 2em;
     overflow: hidden;
@@ -96,12 +96,17 @@ body {
     .recommended .recommended__main .recommended__icons {
       display: grid;
       gap: 1em;
-      justify-content: center;
-      width: 350px;
+      justify-items: center;
+      width: 100%;
       overflow: hidden;
       margin: 0 auto; }
       .recommended .recommended__main .recommended__icons .recommended__icon {
         width: 100%; }
+      .recommended .recommended__main .recommended__icons .recommended__title {
+        height: 70px; }
+    .recommended .recommended__main .recommended__icons:hover {
+      transform: scale(1.1);
+      opacity: 0.8; }
 
 .work-and-prod {
   width: 100%;
@@ -184,3 +189,11 @@ body {
       color: black; }
   .work-and-prod .ourMenu:hover {
     opacity: 0.8; }
+
+.apart {
+  width: 100%;
+  text-align: center; }
+  .apart .apart__container {
+    width: 90%; }
+    .apart .apart__container .subtitle {
+      padding: 1em; }
