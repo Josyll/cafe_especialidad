@@ -23,6 +23,8 @@
         align-items: center;
         justify-content: space-between;
         
+        
+
         .nav__link{
             margin-left: auto;
             padding: 0;
@@ -42,6 +44,12 @@
                 .nav__links{
                     color: $color-title;
                     text-decoration: none;
+                    font-size: small;
+                }
+
+                .nav__links:hover{
+                    border-bottom: 2px solid $color-title;
+                    
                 }
             }
             

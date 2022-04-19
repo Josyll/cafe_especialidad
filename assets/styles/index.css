@@ -43,7 +43,10 @@ body {
         list-style: none; }
         .hero .nav .nav__link .nav__items .nav__links {
           color: white;
-          text-decoration: none; }
+          text-decoration: none;
+          font-size: small; }
+        .hero .nav .nav__link .nav__items .nav__links:hover {
+          border-bottom: 2px solid white; }
     .hero .nav .nav__menu {
       display: none;
       cursor: pointer; }
@@ -99,7 +102,8 @@ body {
       justify-items: center;
       width: 100%;
       overflow: hidden;
-      margin: 0 auto; }
+      margin: 0 auto;
+      border-radius: 5px; }
       .recommended .recommended__main .recommended__icons .recommended__icon {
         width: 100%; }
       .recommended .recommended__main .recommended__icons .recommended__title {
@@ -197,3 +201,5 @@ body {
     width: 90%; }
     .apart .apart__container .subtitle {
       padding: 1em; }
+    .apart .apart__container .apart__paragraph {
+      padding: 0.5em; }
